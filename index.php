@@ -40,16 +40,18 @@ $acyear = new AcademicCalendar($year);
 $public = $acyear->getPublicHolidays();
 try{ 
     $local = Yaml::parseFile('conf/local_schedules/'.$year.'.yaml');
+    for ($m=1; $m < 4; $m++){
+        $local[$m] = null; // months of last business year
+    }
 }catch(Exception $e){
     $local = [];
 }
+
 try {
     $_loc = Yaml::parseFile('conf/local_schedules/'.($year+1).'.yaml');
-    for ($m=1; $m < 4; $m++)
+    for ($m=1; $m < 4; $m++) // months of this business year
         $local[$m] = isset($_loc[$m]) ? $_loc[$m] : [];
-}catch (Exception $e){
-
-}
+}catch (Exception $e){}
 
 $printMonth = function($month) use ($year, $acyear, $public, $local, $conf, $ja)
 {
