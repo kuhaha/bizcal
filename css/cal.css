@@ -84,6 +84,12 @@ table.days-table {
 	margin: 0px;
 }
 
+.lecture {
+/*	border: 1px red solid;*/
+	color: blue;
+	font-weight: bold;
+}
+
 .holiday {
 /*	border: 1px red solid;*/
 	color: red;

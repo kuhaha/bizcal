@@ -15,20 +15,6 @@ $year = (int) (isset($_GET['y']) ? $_GET['y'] : date('Y'));
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="css/cal.css" rel="stylesheet" type="text/css" media="all" />
 <title><?=$year?>カレンダー</title>
-<script type="text/javascript" language="javascript">
-<!--
-window.onload = function(){
-	var today  = new Date();
-	year = today.getFullYear();
-	mon = today.getMonth();
-	day  = today.getDate();
-	var nd= Date.UTC(year, mon, day, 15, 0, 0); // next day 0:00:00
-	var nextday = nd - today.getTime();
-	//alert(nextday);
-	setTimeout("location.reload()", nextday);
-}
-// -->
-</script>
 </head>
 <body>
 
@@ -73,23 +59,28 @@ $printMonth = function($month) use ($year, $acyear, $public, $local, $conf, $ja)
     foreach ($acyear->getMonthDays($month) as $week ){
         $tr = $h->tr(); $n_row++; 
         foreach($week as $w=>$day){
-            $td = $h->td()->attr('class','wday-td');
+            $td = $h->td();
+            $class = 'mday-td';
             if ($day){
                 $date = (new DateTime())->setDate($year, $month, $day);
-                $td = $h->td($date->format('d'));
-                $td->attr('class', 'mday-td '.$wdays_en[$w]);
+                $td->append($date->format('d'));
+                $class .= ' ' . $wdays_en[$w];
                 $dt = $date->format('Y-m-d');
                 if (key_exists($dt, $public)){
                     $dh = $public[$dt][0];
-                    if (isset($ja[$dh]))
+                    if (isset($ja[$dh])){
                        $special[$day][] = ['name'=>$ja[$dh], 'class'=>'holiday'];
+                       $class .= ' holiday';
+                    }
                 }
                 if (isset($local[$month][$day])){
                     $info = getInfo($local[$month][$day]);
                     foreach ($info as $item){
                         $special[$day][] = $item;
+                        $class .= ' ' . $item['class'];
                     }
                 }
+                $td->attr('class', $class);
             }
             $tr->append($td);
         } 
