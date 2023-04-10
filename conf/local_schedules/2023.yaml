@@ -1,0 +1,118 @@
+1:
+  5:
+    name: 冬季休業終了
+    class: vacation
+  6:
+    name: 振替休業日（11/23）
+    class: vacation
+  10:
+    name: 授業予備日
+    class: lecture
+  11:
+    name: 英語アチーブメントテスト
+  13:
+    name: 臨時休業
+    class: vacation
+  14:
+    name: 臨時休業
+    class: vacation
+  16:
+    until: 2023-1-21
+    name: 【～21】後期試験開始（6日間）
+    class: examday
+  23:
+    name: 【～3/20】KSUチャレンジマンス
+    class: vacation
+3:
+  17:
+    name: 学位授与式
+  31:
+    name: 学年終わり
+4:
+  1:
+    name: 学年始め・入学式(1年次書類交付)
+  2:
+    until: 2023-4-7
+    name: 【～7】1年次オリエンテーション等
+  10:
+    name: 前期授業開始
+    class: lecture
+5:
+  4:
+    name: 開学記念日
+    class: special
+  6:
+    name: 学友会定期総会
+    class: vacation
+7:
+  18:
+    name: 授業予備日
+    class: extraday
+  21:
+    name: 前期授業終了
+    class: lecture
+  22:
+    name: 英語アチーブメントテスト
+    class: lecture
+  24:
+    until: 2023-7-29
+    name: 【～7/30】前期試験開始（6日間）
+    class: examday
+  30:
+    name: 【～9/14】KSUチャレンジマンス
+    class: vacation
+  31:
+    name: 振替休業日（9/18）
+    class: vacation     
+8:
+  1:
+    name: 振替休業日（10/9）
+    class: vacation
+  2:
+    until: 2023-9-14
+    name: 【～9/14】夏季休業開始
+    class: vacation
+9:
+  8:
+    name: 前期学位授与式
+  14:
+    name: 夏季休業終了
+    class: vacation
+  15:
+    until: 2022-12-26
+    name: 【～12/26】後期授業開始
+    class: lecture
+  18:
+    name: 月曜授業実施
+    class: lecture
+10:
+  9:
+    name: 月曜授業実施
+    class: lecture
+11:
+  3:
+    name: 香椎祭
+    class: vacation
+  4:
+    name: 香椎祭
+    class: vacation
+  5:
+    name: 香椎祭
+    class: vacation
+  6:
+    name: 香椎祭
+    class: vacation
+  23:
+    name: 木曜授業実施
+    class: lecture
+12:
+  25:
+    name: 後期授業終了
+    class: lecture  
+  26:
+    name: 振替休業日（11/23）
+    class: vacation 
+  27:
+    until: 2024-1-5
+    name: 【～1/5】冬季休業開始
+    class: vacation

@@ -1,0 +1,127 @@
+@CHARSET "utf-8";
+#mainform {
+	padding: 30px;
+}
+
+#mainform td {
+	border-bottom: 1px solid #faa;
+}
+
+.sun, .vacation{
+	color: red;
+}
+
+.sat {
+	color: blue;
+}
+
+.special {
+	color: blue;
+}
+.today {
+	font-weight: bold;
+}
+
+/* 年表記 */
+.year-title {
+	font-size: 130%;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/* 月表記 (例: 3, 3月, March) */
+.month {
+	font-size: 110%;
+	font-weight: bold;
+	border-bottom: #9999ff 3px solid;
+	background-color: #ddddff;
+}
+
+table.months-table {
+	border-collapse: collapse;
+	/*background-image: url(img/eyes0001.jpg);*/
+	background-repeat: no-repeat;
+	/*  filter: alpha(style=0, opacity=30);*/
+}
+
+td.months-table {
+	padding: 0px;
+	text-align: center;
+}
+
+table.days-table {
+	border-collapse: collapse;
+}
+
+/* 曜日 */
+.wday-td {
+	text-align: center;
+	border-bottom: 1px #ccc solid;
+	padding: 2px;
+	margin: 2px;
+	margin-bottom: 20px;
+	width: 14%;
+	font-size: 80%;
+}
+
+/* 日 */
+.mday-td {
+	text-align: center;
+	margin: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 14%;
+}
+
+/* 祝日名を並べる TD 要素 */
+.holiday-names-td {
+	vertical-align: bottom;
+	border-top: 1px #ccc solid;
+	padding: 0px;
+	margin: 0px;
+}
+
+.holiday {
+/*	border: 1px red solid;*/
+	color: red;
+	font-weight: bold;
+	background-color: #ffeeee;
+}
+
+.today {
+	border: 1px red solid;
+	color: blue;
+	background-color: #ffeeee;
+}
+.holiday_name {
+	color: red;
+	font-size: 70%;
+}
+
+.vacation_name {
+	color: red;
+	font-size: 70%;
+}
+.lecture_name,.examday_name,.extraday_name {
+	color: blue;
+	font-size: 70%;
+}
+
+.special_name {
+	color: blue;
+	font-size: 70%;
+}
+
+
+.calendar_name {
+	color: blue;
+	font-size: 70%;
+}
+
+a:link,a:visited, a:hover,a:active{
+	color: blue;
+	text-decoration: none;
+ }

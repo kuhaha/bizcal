@@ -1,0 +1,132 @@
+1:
+  5:
+    name: 冬季休業終了
+    class: vacation
+  6:
+    name: 授業再開
+    class: lecture
+  15:
+    until: 2015-1-16
+    name: 臨時休業日
+    class: vacation
+  20:
+    name: 後期授業終了
+    class: lecture
+  21:
+    name: 補講日
+    class: extraday
+  22:
+    name: 英語アチーブメントテスト
+  23:
+    until: 2016-1-29
+    name: 【～29】後期試験開始（6日間）
+    class: examday
+  29:
+    name: 後期試験終了
+    class: examday
+3:
+  22:
+    name: 学位授与式
+  31:
+    name: 学年終わり
+4:
+  1:
+    name: 学年始め
+  2:
+    name: 入学式(1年次書類交付)
+  4:
+    until: 2016-4-9
+    name: 【～9】1年次オリエンテーション等
+  11:
+    name: 前期授業開始
+    class: lecture
+  29:
+    name: 金曜授業実施
+    class: lecture
+5:
+  2:
+    name: 4月29日振り替え休業日
+    class: vacation
+  4:
+    name: 開学記念日
+    class: special
+  14:
+    name: 学友会定期総会（全学休講）
+    class: vacation
+7:
+  18:
+    name: 月曜授業実施
+    class: lecture
+  28:
+    name: 前期授業終了
+    class: lecture
+  29:
+    name: 授業予備日
+    class: extraday
+  30:
+    until: 2016-8-5
+    name: 【～8/5】前期試験開始（6日間）
+    class: examday
+8:
+  5:
+    name: 前期試験終了
+    class: examday
+  8:
+    name: 振替休業日（7/18）
+    class: vacation
+  9:
+    name: 振替休業日（9/19）
+    class: vacation
+  10:
+    until: 2016-9-15
+    name: 【～9/15】夏季休業開始
+    class: vacation
+9:
+  15:
+    name: 複数項目
+    class: list
+    items: 
+      1:
+        name: 夏季休業終了
+        class: vacation
+      2: 
+        name: 前期学位授与式
+  16:
+    until: 2017-1-20
+    name: 【～1/20】後期授業開始
+    class: lecture
+  19:
+    name: 月曜授業実施
+    class: lecture
+  22:
+    name: 木曜授業実施
+    class: lecture
+10:
+  10:
+    name: 月曜授業実施
+    class: lecture
+11:
+  3:
+    name: 木曜授業実施
+    class: lecture
+  4:
+    until: 2016-11-7
+    name: 【～11/7】香椎祭（5日間）
+    class: vacation
+  7:
+    name: 振替休業日(9/22)
+    class: vacation
+  8:
+    name: 振替休業日(10/10)
+    class: vacation
+12:
+  24:
+    name: 振替休業日(11/3)
+    class: vacation
+  26:
+    name: 冬季休業前の授業終了
+    class: lecture
+  27:
+    until: 2017-1-5
+    name: 【～1/5】冬季休業開始
+    class: vacation

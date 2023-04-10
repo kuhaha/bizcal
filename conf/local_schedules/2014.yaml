@@ -1,0 +1,127 @@
+1:
+  5:
+    name: 冬季休業終了
+    class: vacation
+  6:
+    name: 授業再開
+    class: lecture
+  14:
+    name: 「体育の日」振替休業日
+    class: vacation
+  18:
+    name: 臨時休業日
+    class: vacation
+  21:
+    name: 後期授業終了
+    class: lecture
+  22:
+    name: 補講日
+    class: extraday
+  23:
+    name: 英語アチーブメントテスト
+  24:
+    until: 2014-1-30
+    name: 【～30】後期試験開始（6日間）
+    class: examday
+  30:
+    name: 後期試験終了
+    class: examday
+3:
+  24:
+    name: 学位授与式
+  31:
+    name: 学年終わり
+4:
+  1:
+    name: 学年始め
+  2:
+    name: 入学式(1年次書類交付)
+  3:
+    until: 2014-4-7
+    name: 【～7】1年次オリエンテーション等
+  8:
+    name: 前期授業開始
+    class: lecture
+  29:
+    name: 火曜授業実施
+    class: lecture
+5:
+  1:
+    name: 「昭和の日」振替休業日
+    class: vacation
+  2:
+    name: 「海の日」振替休業日
+    class: vacation
+  4:
+    name: 開学記念日
+    class: special
+  14:
+    name: 学友会定期総会（全学休講）
+    class: vacation
+7:
+  21:
+    name: 月曜授業実施
+    class: lecture
+  28:
+    name: 前期授業終了
+    class: lecture
+  29:
+    name: 補講日
+    class: extraday
+  30:
+    until: 2014-8-5
+    name: 【～8/5】前期試験開始（6日間）
+    class: examday
+8:
+  5:
+    name: 前期試験終了
+    class: examday
+  6:
+    until: 2014-9-11
+    name: 【～9/11】夏季休業開始
+    class: vacation
+9:
+  11:
+    name: 夏季休業終了
+    class: vacation
+  12:
+    until: 2015-1-21
+    name: 【～1/20】後期授業開始
+    class: lecture
+  15:
+    name: 月曜授業実施
+    class: lecture
+  17:
+    name: 前期学位授与式
+  23:
+    name: 火曜授業実施
+    class: lecture
+10:
+  13:
+    name: 月曜授業実施
+    class: lecture
+  31:
+    until: 2014-11-4
+    name: 【～11/4】香椎祭（5日間）
+    class: vacation
+11:
+  4:
+    name: 「敬老の日」振替休業日
+    class: vacation
+  5:
+    name: 「秋分の日」振替休業日
+    class: vacation
+  6:
+    name: 「体育の日」振替休業日
+    class: vacation
+  24:
+    name: 月曜授業実施
+    class: lecture
+12:
+  22:
+    name: 冬季休業前の授業終了
+    class: lecture
+  24:
+    until: 2015-1-5
+    name: 【～1/5】冬季休業開始
+    class: vacation

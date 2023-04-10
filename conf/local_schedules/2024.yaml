@@ -1,0 +1,27 @@
+1:
+  5:
+    name: 冬季休業終了
+    class: vacation
+  9:
+    name: 授業予備日
+    class: lecture
+  10:
+    name: 英語アチーブメントテスト
+  12:
+    name: 臨時休業
+    class: vacation
+  13:
+    name: 臨時休業
+    class: vacation
+  15:
+    until: 2024-1-20
+    name: 【～20】後期試験開始（6日間）
+    class: examday
+  21:
+    name: KSUチャレンジマンス【～3/20】
+    class: vacation
+3:
+  15:
+    name: 学位授与式
+  31:
+    name: 学年終わり

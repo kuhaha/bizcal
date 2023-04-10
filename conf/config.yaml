@@ -1,0 +1,36 @@
+cols: 6
+cookie:
+  domain: localhost
+  path: /calendar/
+  expire: 30
+  secure: false
+  httponly: true
+weekdays_jp:
+  - 日
+  - 月
+  - 火
+  - 水
+  - 木
+  - 金
+  - 土
+weekdays_english:
+  - Sunday 
+  - Monday
+  - Tuesday
+  - Wednesday
+  - Thursday
+  - Friday
+  - Saturday
+weekdays_en:
+  - sun
+  - mon
+  - tue
+  - wed
+  - tur
+  - fri
+  - sat
+class:
+  lecture: 講義実施日
+  vacation: 休業日
+  examday: 試験期間
+  extraday: 補講日
